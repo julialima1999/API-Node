@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing Ideas - Contato</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="shortcut icon" href="../img/ideia.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="formulario contato cb3">
+        <a href="../index.html">
+            <img class="img" id="logo" src="../img/DI_logo.png" alt=""></a>
+
+
+        <div class="contato">
+            <ul id="mensagemErro" class="m-erro">
+            </ul>
+            <h1 class="titulocontato ">Quer saber mais sobre D.I. ou entrar em contato conosco?</h1>
+            <form name="formuser" class="form_msg" onsubmit="enviandovalidando()">
+
+                <form name="formuser" method="POST">
+                    <label class="label_padrao " for="nomesobrenome">Nome Sobrenome:</label>
+                    <input type="text" name="nomesobrenome" id="nomesobrenome" class="input_padrao ajustes" placeholder="Nome Sobrenome"><br><br>
+                    <label class="label_padrao " for="email">E-mail:</label>
+                    <input type="text" name="email" id="email" class="input_padrao ajustes" placeholder="exemplo@exemplo.com"><br><br>
+                    <label class="label_padrao " for="Telefone">Telefone:</label>
+                    <input name="Telefone" id="Telefone" class="input_padrao ajustes" placeholder="(00) 0000-0000"><br><br>
+                    <label class="label_padrao" for="mensagem">Mensagem:
+                        
+                        <textarea name="mensagem"  id="mensagem" cols="60" rows="10" class="input_padrao ajustes">
+
+                        </textarea>
+                    </label>
+
+
+
+                    <button class="botao_cadastro" type="submit" onclick="return validar()">Enviar</button>
+
+                </form>
+
+            </form>
+            <img src="../img/Create-amico.png" alt="">
+        </div>
+
+    </div>
+</body>
+
+
+</body>
+
+</html>
+
+
+<script>
+    function validar() {
+        mensagemErro.innerHTML = " ";
+
+
+
+        var erros = [];
+
+        var nomesobrenome = formuser.nomesobrenome.value;
+        var email = formuser.email.value;
+        var Telefone = formuser.Telefone.value;
+        var mensagem = formuser.mensagem.value;
+
+
+        if (nomesobrenome == "") {
+            // erros.push('Preencha o campo nomesobrenome.');
+            alert('Preencha o campo Nome Sobrenome.');
+            formuser.nomesobrenome.focus();
+            return false;
+        }
+
+        if (email == "" || email.indexOf('@') == -1) {
+            alert('Preencha o campo E-mail.');
+            formuser.email.focus();
+            return false;
+        }
+        if (email.indexOf('.') == -1 ||
+            email.indexOf(' ') >= 0) {
+            alert('Formato de E-mail invalido.');
+            formuser.email.focus();
+            return false;
+        }
+        if (Telefone == "" || Telefone.length <= 5) {
+            alert('Formato to telefone invalido');
+            formuser.Telefone.focus();
+            return false;
+        }
+        if (mensagem == "" || mensagem.length <= 5) {
+            alert('Formato to mensagem invalido');
+            formuser.mensagem.focus();
+            return false;
+        }
+
+    }
+</script>

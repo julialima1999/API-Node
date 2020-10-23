@@ -1,0 +1,556 @@
+body {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: Courier New, monospace;
+    text-align: center;
+    height: 1000px;
+}
+
+.conteudo {
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.conteudo h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 25px;
+    font-size: 52px;
+}
+
+.conteudo p {
+    font-size: 45px;
+    margin: 0;
+}
+
+.teste {
+    width: 100%;
+    height: 840px;
+    background: url("../img/fundo_desenhos.jpeg");
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cabeçalho {
+    width: 100%;
+    margin: auto;
+    /* border-bottom: black 5px solid; */
+    /* border-top: black 5px solid; */
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.c1 {
+    background-color: red;
+    height: 185px;
+}
+
+.c2 {
+    background-color: #6592e7;
+    height: 165px;
+}
+
+.c3 {
+    height: 145px;
+    background-color: yellow;
+}
+
+.cabeçalho.baixo {
+    height: 380px;
+    background: #6592e7;
+}
+
+.cabeçalho .conteudo {
+    height: 110px;
+    padding: 10px;
+}
+
+#logo {
+    width: 190px;
+    height: 110px;
+    float: left;
+    margin: 15px auto;
+    padding: 0px;
+    margin-left: 39px;
+    background: #ffff00;
+    border-radius: 55px;
+}
+
+.nav ul {
+    float: right;
+    padding: 45px;
+    margin: auto;
+    font-size: 30px;
+}
+
+.nav ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border: black 2px solid;
+}
+
+.nav ul a:hover {
+    background-color: red;
+    color: white;
+}
+
+
+/* <-- Fim do cabeçalho --> */
+
+.box {
+    display: block;
+    margin: 0px 4%;
+    height: auto;
+}
+
+.começo .img {
+    width: 200px;
+    margin: 0;
+    transition: width 1s;
+}
+
+.começo .img:hover {
+    width: 210px;
+    margin: 0;
+}
+
+.começo p {
+    font-size: 30px;
+    margin: 0;
+}
+
+.img_comeco {
+    display: inline-block;
+    width: 26%;
+    background: white;
+    box-shadow: 10px 10px 5px grey;
+    transition: width 2s;
+}
+
+.img_comeco:hover {
+    width: 33%;
+}
+
+.fundo {
+    width: 100%;
+    height: 974px;
+    background: url("../img/fundo2.jpeg");
+}
+
+.formulario .contato {
+    margin: auto;
+    width: 85%;
+    height: 100%;
+}
+
+.form_msg {
+    margin: 40px 0;
+    width: 480px;
+    height: 70%;
+    float: left;
+    padding: 50px;
+    background: red;
+    border-radius: 5%;
+    font-size: 25px;
+    color: white;
+}
+
+.label_form {
+    float: left;
+    width: 100%;
+    height: 59%;
+}
+
+.label_preferencia {
+    width: 100%;
+    height: 100%;
+    /* float: left; */
+}
+
+form label,
+form p {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.m-erro {
+    width: 100px;
+    height: 30px;
+}
+
+.input_padrao {
+    display: block;
+    padding: 10px 25px;
+    width: 450px;
+    margin: auto;
+}
+
+.conteudo h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 25px;
+    font-size: 39px;
+}
+
+.formulario {
+    border-radius: 5%;
+    height: 929px;
+    padding-bottom: 32px;
+}
+
+.cb1 {
+    background: red;
+    height: 500px;
+    padding-top: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+.cb1 h1 {
+    margin: 0;
+}
+
+.cb2 {
+    background: #6592e7;
+    height: 450px;
+    padding-top: 30px;
+}
+
+.cb2 a {
+    text-decoration: none;
+    color: red;
+}
+
+.cb3 {
+    background: url(../img/fundo_contato.png);
+    margin-top: 30px;
+}
+
+.formulario .valor {
+    width: 25%;
+    display: inline-block;
+}
+
+.formulario img {
+    width: 45%;
+}
+
+.formulario .cb2 h3 {
+    margin: auto 40px;
+}
+
+.formulario .c3 {
+    text-align: center;
+    padding: 60px 0;
+    height: 285px;
+    color: black;
+}
+
+.titulocontato {
+    background: white;
+    width: 100%px;
+    height: 80px;
+    margin: auto;
+    border-radius: 5%;
+}
+
+.input_button {
+    width: 50%;
+    height: 35px;
+    border-radius: 5%;
+}
+
+.preferencia_contato {
+    float: left;
+    margin: 30px;
+}
+
+.preferencia_contato label {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Página úsuario */
+
+.div_menu {
+    width: 450px;
+    height: 450px;
+    transition: 0.3s;
+    float: right;
+    background: red;
+    border-radius: 5%;
+}
+
+#abrir_menu img {
+    width: 50px;
+    float: right;
+}
+
+.gaveta {
+    height: 100%;
+    position: fixed;
+    transition: 0.3s;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.g1 {
+    width: 12%;
+    background-color: #6592e7;
+    font-size: 30px;
+}
+
+.g1:hover {
+    width: 14%;
+    background-color: #6187ce;
+}
+
+.g2 {
+    width: 8%;
+    background-color: yellow;
+}
+
+.g2:hover {
+    width: 10%;
+    background-color: rgb(248, 248, 93);
+}
+
+.g3 {
+    width: 4%;
+    background-color: red;
+}
+
+.g3:hover {
+    width: 6%;
+    background-color: rgb(248, 54, 54);
+}
+
+.conteiner {
+    text-align: center;
+    width: 90%;
+    height: 960px;
+    padding-top: 2%;
+    padding-left: 9%;
+    background: url(../img/fundo4.jpg);
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffffff29;
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 5%;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+    border: black 2px solid;
+    border-radius: 100px;
+}
+
+.galeria {
+    width: 80%;
+    height: 800px;
+    margin: auto 10%;
+    background: white;
+    border-radius: 2%;
+    border: black 5px solid;
+    overflow-y: scroll;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.img_MENU {
+    width: 55px;
+}
+
+.img_MENU:hover {
+    width: 60px;
+}
+
+.i1 {
+    background: #6592e7;
+}
+
+.i2 {
+    background: yellow;
+}
+
+.i3 {
+    background: red;
+}
+
+.radio {
+    border-radius: 50%;
+}
+
+.botaogaveta {
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+    padding: 30px 15px;
+    border: none;
+    text-decoration: none;
+}
+
+#fechar_menu {
+    background: white;
+    padding: 0;
+    border-radius: 5%;
+}
+
+#fechar_menu img {
+    width: 50px;
+}
+
+.botaogaveta img {
+    width: 25px;
+    float: right;
+    padding: 0;
+}
+
+.botaogaveta .mi {
+    width: 20px;
+    height: 20px;
+}
+
+#fechar_gaveta1 {
+    display: none;
+}
+
+#fechar_gaveta2 {
+    display: none;
+}
+
+#fechar_gaveta3 {
+    display: none;
+}
+
+.mine {
+    display: inline-block;
+    width: 410px;
+    height: 320px;
+    margin: 5px;
+    border-radius: 5px;
+    color: black;
+    border: black 5px solid;
+}
+
+.mine h2 {
+    margin: 0;
+}
+
+.mine img {
+    width: 100%;
+    height: 100%;
+}
+
+.vid {
+    display: inline-block;
+    width: 100%;
+    margin: 5px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    height: 493px;
+    color: black;
+    border: black 5px solid;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.licoes {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    text-decoration: none;
+}
+
+.licoes img {
+    width: 100%;
+    height: 100%;
+}
+
+.lbox {
+    visibility: hidden;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+
+.lbox:target {
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(10, 10, 10, .7);
+    position: fixed;
+}
+
+.box_img {
+    max-width: 900px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.box_img img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.btn {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#close .lbox {
+    visibility: hidden;
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+}
+
+#prev {
+    left: 18%;
+    top: 75%;
+    background: #6592e7;
+    border-radius: 50%;
+}
+
+#prev img {
+    margin: 0;
+}
+
+#next {
+    right: 18%;
+    top: 75%;
+    background: #6592e7;
+    border-radius: 50%;
+}
+
+#next img {
+    margin: 0;
+}
+
+.lista_desenho {
+    list-style: none;
+}

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 rel. 2 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<app>
+	<version>1</version>
+	<series>How to Draw</series>
+	<name>Wild Animals</name>
+	<lesson id="6">
+		<name>Bear</name>
+		<steps>7</steps>
+		<rate>2</rate>
+		<lock>0</lock>
+		<order>10</order>
+	</lesson>
+	<lesson id="13">
+		<name>Bison</name>
+		<steps>7</steps>
+		<rate>1</rate>
+		<lock>0</lock>
+		<order>20</order>
+	</lesson>
+	<lesson id="10">
+		<name>Buffalo</name>
+		<steps>8</steps>
+		<rate>4</rate>
+		<lock>0</lock>
+		<order>30</order>
+	</lesson>
+	<lesson id="16">
+		<name>Crocodile</name>
+		<steps>8</steps>
+		<rate>3</rate>
+		<lock>0</lock>
+		<order>40</order>
+	</lesson>
+	<lesson id="9">
+		<name>Deer</name>
+		<steps>8</steps>
+		<rate>4</rate>
+		<lock>0</lock>
+		<order>50</order>
+	</lesson>
+	<lesson id="19">
+		<name>Dolphin</name>
+		<steps>6</steps>
+		<rate>1</rate>
+		<lock>1</lock>
+		<order>60</order>
+	</lesson>
+	<lesson id="28">
+		<name>Dragon</name>
+		<steps>9</steps>
+		<rate>3</rate>
+		<lock>0</lock>
+		<order>65</order>
+	</lesson>
+	<lesson id="24">
+		<name>Duck</name>
+		<steps>7</steps>
+		<rate>3</rate>
+		<lock>0</lock>
+		<order>70</order>
+	</lesson>
+	<lesson id="23">
+		<name>Eagle</name>
+		<steps>8</steps>
+		<rate>4</rate>
+		<lock>1</lock>
+		<order>80</order>
+	</lesson>
+	<lesson id="8">
+		<name>Elephant</name>
+		<steps>8</steps>
+		<rate>3</rate>
+		<lock>0</lock>
+		<order>90</order>
+	</lesson>
+	<lesson id="5">
+		<name>Fox</name>
+		<steps>8</steps>
+		<rate>4</rate>
+		<lock>1</lock>
+		<order>100</order>
+	</lesson>
+	<lesson id="11">
+		<name>Giraffe</name>
+		<steps>8</steps>
+		<rate>3</rate>
+		<lock>0</lock>
+		<order>110</order>
+	</lesson>
+	<lesson id="14">
+		<name>Hippopotamus</name>
+		<steps>8</steps>
+		<rate>4</rate>
+		<lock>0</lock>
+		<order>120</order>
+	</lesson>
+	<lesson id="21">
+		<name>Iguana</name>
+		<steps>7</steps>
+		<rate>2</rate>
+		<lock>1</lock>
+		<order>130</order>
+	</lesson>
+	<lesson id="1">
+		<name>Lion</name>
+		<steps>8</steps>
+		<rate>4</rate>
+		<lock>3</lock>
+		<order>140</order>
+	</lesson>
+	<lesson id="2">
+		<name>Lynx</name>
+		<steps>10</steps>
+		<rate>5</rate>
+		<lock>0</lock>
+		<order>150</order>
+	</lesson>
+	<lesson id="7">
+		<name>Monkey</name>
+		<steps>8</steps>
+		<rate>4</rate>
+		<lock>4</lock>
+		<order>160</order>
+	</lesson>
+	<lesson id="12">
+		<name>Moose</name>
+		<steps>8</steps>
+		<rate>3</rate>
+		<lock>1</lock>
+		<order>170</order>
+	</lesson>
+	<lesson id="22">
+		<name>Owl</name>
+		<steps>7</steps>
+		<rate>3</rate>
+		<lock>0</lock>
+		<order>180</order>
+	</lesson>
+	<lesson id="25">
+		<name>Parrot</name>
+		<steps>9</steps>
+		<rate>5</rate>
+		<lock>3</lock>
+		<order>190</order>
+	</lesson>
+	<lesson id="15">
+		<name>Rhinoceros</name>
+		<steps>8</steps>
+		<rate>4</rate>
+		<lock>0</lock>
+		<order>200</order>
+	</lesson>
+	<lesson id="17">
+		<name>Seal</name>
+		<steps>8</steps>
+		<rate>4</rate>
+		<lock>1</lock>
+		<order>210</order>
+	</lesson>
+	<lesson id="20">
+		<name>Shark</name>
+		<steps>6</steps>
+		<rate>1</rate>
+		<lock>0</lock>
+		<order>220</order>
+	</lesson>
+	<lesson id="26">
+		<name>Snake</name>
+		<steps>9</steps>
+		<rate>5</rate>
+		<lock>0</lock>
+		<order>230</order>
+	</lesson>
+	<lesson id="27">
+		<name>Spider</name>
+		<steps>7</steps>
+		<rate>1</rate>
+		<lock>1</lock>
+		<order>240</order>
+	</lesson>
+	<lesson id="3">
+		<name>Tiger</name>
+		<steps>10</steps>
+		<rate>5</rate>
+		<lock>0</lock>
+		<order>250</order>
+	</lesson>
+	<lesson id="18">
+		<name>Turtle</name>
+		<steps>8</steps>
+		<rate>4</rate>
+		<lock>0</lock>
+		<order>260</order>
+	</lesson>
+	<lesson id="4">
+		<name>Wolf</name>
+		<steps>8</steps>
+		<rate>4</rate>
+		<lock>4</lock>
+		<order>270</order>
+	</lesson>
+</app>

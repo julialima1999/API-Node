@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 rel. 2 (http://www.altova.com) by TeaM DJiNN (TeaM DJiNN) -->
+<app>
+	<version>1</version>
+	<series>How to Draw</series>
+	<name>Jurassic Dinosaurs</name>
+	<lesson id="1">
+		<name>Indominus Rex</name>
+		<steps>12</steps>
+		<rate>5</rate>
+		<lock>0</lock>
+		<order>10</order>
+		<black>0</black>
+		<diamond>0</diamond>
+	</lesson>
+	<lesson id="2">
+		<name>Tyrannosaurus</name>
+		<steps>11</steps>
+		<rate>4</rate>
+		<lock>0</lock>
+		<order>20</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="3">
+		<name>Velociraptor</name>
+		<steps>11</steps>
+		<rate>4</rate>
+		<lock>1</lock>
+		<order>30</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="4">
+		<name>Spinosaururs</name>
+		<steps>12</steps>
+		<rate>3</rate>
+		<lock>3</lock>
+		<order>40</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="5">
+		<name>Pachycephalosaurus</name>
+		<steps>11</steps>
+		<rate>2</rate>
+		<lock>0</lock>
+		<order>50</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="6">
+		<name>Stegosaurus</name>
+		<steps>13</steps>
+		<rate>3</rate>
+		<lock>1</lock>
+		<order>60</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="7">
+		<name>Ankylosaurus</name>
+		<steps>14</steps>
+		<rate>4</rate>
+		<lock>4</lock>
+		<order>70</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="8">
+		<name>Triceratops</name>
+		<steps>11</steps>
+		<rate>3</rate>
+		<lock>0</lock>
+		<order>80</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="9">
+		<name>Mosasaurus</name>
+		<steps>10</steps>
+		<rate>1</rate>
+		<lock>1</lock>
+		<order>90</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="10">
+		<name>Gallimimus</name>
+		<steps>12</steps>
+		<rate>3</rate>
+		<lock>3</lock>
+		<order>100</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="11">
+		<name>Suchomimus</name>
+		<steps>12</steps>
+		<rate>3</rate>
+		<lock>0</lock>
+		<order>110</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="12">
+		<name>Dimorphodon</name>
+		<steps>10</steps>
+		<rate>5</rate>
+		<lock>1</lock>
+		<order>120</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="13">
+		<name>Pteranodon</name>
+		<steps>13</steps>
+		<rate>3</rate>
+		<lock>4</lock>
+		<order>130</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="14">
+		<name>Edmonotosaurus</name>
+		<steps>12</steps>
+		<rate>2</rate>
+		<lock>0</lock>
+		<order>140</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+	<lesson id="15">
+		<name>Parasaurolophus</name>
+		<steps>11</steps>
+		<rate>2</rate>
+		<lock>1</lock>
+		<order>150</order>
+		<black>0</black>
+		<diamond>10</diamond>
+	</lesson>
+</app>

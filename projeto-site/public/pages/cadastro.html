@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="shortcut icon" href="../img/ideia.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="fundo">
+        <div class="conteudo">
+            <a href="../index.html">
+                <img class="img" id="logo" src="../img/DI_logo.png" alt=""></a>
+            <div class="box">
+
+                <div class="conteudo">
+                    <div class="entrar">
+                        <div id='login'>
+
+
+                            <div id='cadastro'>
+                                <h1>Cadastro</h1>
+                                <ul id="mensagemErro" class="m-erro">
+                                </ul>
+                                <form name="formuser" action="../pages/login.html" method="POST">
+                                    <label class="label_padrao " for="usuario">Úsuario:</label>
+                                    <input type="text" name="usuario" id="usuario" placeholder="Úsuario"><br><br>
+                                    <label class="label_padrao " for="email">E-mail:</label>
+                                    <input type="text" name="email" id="email" placeholder="exemplo@exemplo.com"><br><br>
+                                    <label class="label_padrao " for="senha">Senha:</label>
+                                    <input type="password" name="senha" id="senha" placeholder="Senha"><br><br>
+                                    <button class="botao_logar" type="submit" onclick="return validar()">Cadastrar</button>
+
+                                </form>
+
+
+
+                                Já tem cadastro?
+
+                                <a href="../pages/login.html ">Entre aqui.</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+</body>
+
+</html>
+<script>
+    function validar() {
+        mensagemErro.innerHTML = " ";
+
+        // var erros = validar();
+
+        var erros = [];
+
+        var usuario = formuser.usuario.value;
+        var email = formuser.email.value;
+        var senha = formuser.senha.value;
+
+        if (usuario == "") {
+            erros.push('Preencha o campo úsuario.');
+            alert('Preencha o campo úsuario.');
+            formuser.usuario.focus();
+            return false;
+        }
+
+        if (email == "" || email.indexOf('@') == -1) {
+            alert('Preencha o campo E-mail.');
+            formuser.email.focus();
+            return false;
+        }
+        if (email.indexOf('.') == -1 ||
+            email.indexOf(' ') >= 0) {
+            alert('Formato de E-mail invalido.');
+            formuser.email.focus();
+            return false;
+        }
+        if (senha == "" || senha.length <= 5) {
+            alert('Preencha o campo senha com minimo 6 caracteres');
+            formuser.senha.focus();
+            return false;
+        }
+        if (erros.length > 0) {
+            for (var i = 0; i < erros.length; i++) {
+                var erro = erros[i];
+                var li = document.createElement("li ");
+                li.innerHTML = erro;
+                mensagemErro.appendChild(li);
+            }
+        } else {
+
+        }
+    }
+
+    function validaContato() {
+
+    }
+</script>

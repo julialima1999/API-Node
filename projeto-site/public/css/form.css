@@ -1,0 +1,88 @@
+.entrar {
+    height: 610px;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.589);
+    float: right;
+    border-radius: 10%;
+    margin-top: 80px;
+    -webkit-box-orient: vertical;
+    font-size: 25px;
+    float: right;
+}
+
+#entrar {
+    height: 100%;
+}
+
+.entrar input {
+    background: white;
+    width: 250px;
+    height: 35px;
+    border-radius: 5%;
+    font-size: 25px;
+}
+
+.botao_troca {
+    background: 0;
+    border: 0;
+    color: red;
+    font-family: Courier New, monospace;
+    font-size: 25px;
+}
+
+.botao_logar {
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background: #e70000;
+}
+
+.botao_cadastro {
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background: yellow;
+}
+
+.entrar a {
+    text-decoration: none;
+    color: red;
+}
+
+.entrar .formulario {
+    float: right;
+    padding-right: 62px;
+    margin-top: 10px;
+}
+
+#login {
+    width: 95%;
+    height: 650px;
+    margin: 78px 0;
+    border-radius: 10%;
+    color: white;
+    background: black;
+}
+
+#cadastro {
+    width: 95%;
+    height: 750px;
+    margin: 70px 0;
+    border-radius: 10%;
+    color: white;
+    background: black;
+    padding-left: 25px;
+}
+
+.contato {
+    margin: auto;
+    width: 85%;
+}
+
+form {
+    margin: 40px 0;
+}
